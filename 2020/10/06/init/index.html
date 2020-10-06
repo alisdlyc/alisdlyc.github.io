@@ -187,9 +187,7 @@
                     <nav class="header-nav">
                         <ul class="social">
                             
-                                <a class="fl github"  target="_blank" href="/xxxxx" title="github">github</a>
-                            
-                                <a class="fl weibo"  target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
+                                <a class="fl github"  target="_blank" href="https://github.com/alisdlyc" title="github">github</a>
                             
                                 <a class="fl rss"  target="_blank" href="/atom.xml" title="rss">rss</a>
                             
@@ -220,7 +218,7 @@
                 
                 <section class="switch-part switch-part4">
                 
-                    <div id="js-aboutme">爱动漫,爱游戏,爱编程,爱运动,爱的太多了!</div>
+                    <div id="js-aboutme">莫得感情qwq</div>
                 </section>
                 
             </div>
@@ -265,9 +263,7 @@
             <nav class="header-nav">
                 <div class="social">
                     
-                        <a class="github" target="_blank" href="/xxxxx" title="github">github</a>
-                    
-                        <a class="weibo" target="_blank" href="/xxxxxxxx" title="weibo">weibo</a>
+                        <a class="github" target="_blank" href="https://github.com/alisdlyc" title="github">github</a>
                     
                         <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
                     
@@ -408,16 +404,21 @@
 
 
     
-        <section class="changyan" id="comments">
-  <!--<div id="uyan_frame"></div>-->
-  <div id="SOHUCS"></div>
-  <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js"></script>
-  <script type="text/javascript">
-    window.changyan.api.config({
-      appid: 'xxxx',
-      conf: 'xxxxxxxxx'
-    });
-  </script>
+        <section id="comments">
+<link rel="stylesheet" href="/css/gitment.min.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: 'init', // 可选。默认为 location.href
+  owner: 'yourid',
+  repo: 'yourrepo',
+  oauth: {
+    client_id: 'yourid',
+    client_secret: 'yoursecret',
+  },
+})
+gitment.render('comments')
+</script>
 </section>
     
 
