@@ -190,26 +190,26 @@ fb_admins:
 fb_app_id:
 
 # profile
-profile:
-  enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
-  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: alisdlyc
-  author_title: Web Developer & Designer
-  author_description: I want to be a cat, no work, not school, just meow meow.
-  location: Peking, China
-  follow: https://github.com/alisdlyc
-  # Social Links
-  social:
-    links:
-      github: https://github.com/alisdlyc
-      # weibo: http://weibo.com/cofess
-      # twitter: https://twitter.com/iwebued
-      # facebook: /
-      # dribbble: /
-      # behance: https://www.behance.net/cofess
-      # rss: atom.xml
-    link_tooltip: true # enable the social link tooltip, options: true, false
+# profile:
+#   enabled: true # Whether to show profile bar
+#   avatar: images/avatar.jpg
+#   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+#   author: alisdlyc
+#   author_title: Web Developer & Designer
+#   author_description: I want to be a cat, no work, not school, just meow meow.
+#   location: Peking, China
+#   follow: https://github.com/alisdlyc
+#   # Social Links
+#   social:
+#     links:
+#       github: https://github.com/alisdlyc
+#       # weibo: http://weibo.com/cofess
+#       # twitter: https://twitter.com/iwebued
+#       # facebook: /
+#       # dribbble: /
+#       # behance: https://www.behance.net/cofess
+#       # rss: atom.xml
+#     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
   # skills:
   #   Git: ★★★☆☆
