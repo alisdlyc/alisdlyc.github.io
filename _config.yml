@@ -134,20 +134,20 @@ share:
   enable: true  # 是否启用分享
   sites: weibo,qq,wechat,facebook,twitter  # PC端显示的分享图标
   mobile_sites: weibo,qq,qzone  # 移动端显示的分享图标
-
+#
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # comment:
 #     enable: false
-  # type: gitment # 启用哪种评论系统
-  # gitment:
-  #   githubID: alisdlyc
-  #   repo: alisdlyc.github.io
-  #   ClientID: 0c1dc2ddbac02cfdc530
-  #   ClientSecret: 00863bccf80786761386f9f2caf729b1661352ea
-  #   lazy: false
-
+#   type: gitment # 启用哪种评论系统
+#   gitment:
+#     githubID: alisdlyc
+#     repo: alisdlyc.github.io
+#     ClientID: 0c1dc2ddbac02cfdc530
+#     ClientSecret: 00863bccf80786761386f9f2caf729b1661352ea
+#     lazy: false
+#
 # # hexo-neat
 # neat_enable: true
 # neat_html:
@@ -164,7 +164,7 @@ share:
 #   compress:
 #   exclude:
 #     - '*.min.js'
-
+#
 # # PV
 # pv: # 浏览量统计
 #   busuanzi:

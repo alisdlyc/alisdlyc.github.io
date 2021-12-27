@@ -102,7 +102,7 @@ share:
 
 # Github
 github:
-  username: alisdlyc  # github username
+  username: cofess  # github username
 
 # Comment
 # Gitment
@@ -151,10 +151,10 @@ comment:
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
 douban:
   enable: false
-#   user: # 豆瓣用户名
-#   start: 0 # 从哪一条记录开始
-#   count: 100 # 获取豆瓣书单数据条数
-#   apikey: # 豆瓣apikey
+  user: # 豆瓣用户名
+  start: 0 # 从哪一条记录开始
+  count: 100 # 获取豆瓣书单数据条数
+  apikey: # 豆瓣apikey
 
 # PV
 pv: # 浏览量统计
@@ -167,7 +167,7 @@ pv: # 浏览量统计
 
 # wordcount
 postCount:
-  enable: true
+  enable: false
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计
 
@@ -186,55 +186,55 @@ fb_admins:
 fb_app_id:
 
 # profile
-# profile:
-#   enabled: true # Whether to show profile bar
-#   avatar: images/avatar.jpg
-#   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-#   author: alisdlyc
-#   author_title: Web Developer & Designer
-#   author_description: I want to be a cat, no work, not school, just meow meow.
-#   location: Peking, China
-#   follow: https://github.com/alisdlyc
-#   # Social Links
-#   social:
-#     links:
-#       github: https://github.com/alisdlyc
-#       # weibo: http://weibo.com/cofess
-#       # twitter: https://twitter.com/iwebued
-#       # facebook: /
-#       # dribbble: /
-#       # behance: https://www.behance.net/cofess
-#       # rss: atom.xml
-#     link_tooltip: true # enable the social link tooltip, options: true, false
+profile:
+  enabled: true # Whether to show profile bar
+  avatar: images/avatar.jpg
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author: alisdlyc
+  author_title: Web Developer & Designer
+  author_description: I want to be a cat, no work, not school, just meow meow.
+  location: Peking, China
+  follow: https://github.com/alisdlyc
+  # Social Links
+  social:
+    links:
+      github: https://github.com/alisdlyc
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
+      # facebook: /
+      # dribbble: /
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills
-  # skills:
-  #   Git: ★★★☆☆
-  #   Gulp: ★★★☆☆
-  #   Javascript: ★★★☆☆
-  #   HTML+CSS: ★★★☆☆
-  #   Bootstrap: ★★★☆☆
-  #   ThinkPHP: ★★★☆☆
-  #   平面设计: ★★★☆☆
+  skills:
+    Git: ★★★☆☆
+    Gulp: ★★★☆☆
+    Javascript: ★★★☆☆
+    HTML+CSS: ★★★☆☆
+    Bootstrap: ★★★☆☆
+    ThinkPHP: ★★★☆☆
+    平面设计: ★★★☆☆
   # My Personal Links
-  # links:
-  #   Github: https://github.com/cofess
-  #   Blog: http://blog.cofess.com
-  #   微博: http://weibo.com/cofess
-  #   花瓣: http://huaban.com/cofess
-  #   Behance: https://www.behance.net/cofess
+  links:
+    Github: https://github.com/cofess
+    Blog: http://blog.cofess.com
+    微博: http://weibo.com/cofess
+    花瓣: http://huaban.com/cofess
+    Behance: https://www.behance.net/cofess
   # My Personal Labels
-  # labels:
-  #   - 前端
-  #   - 前端开发
-  #   - 前端重构
-  #   - Web前端
-  #   - 网页重构
+  labels:
+    - 前端
+    - 前端开发
+    - 前端重构
+    - Web前端
+    - 网页重构
   # My Personal Works
-  # works:
-  #   name:
-  #     link: http://www.example.com
-  #     date: 2016
+  works:
+    name:
+      link: http://www.example.com
+      date: 2016
   # My Personal Projects
-  # projects:
-  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  projects:
+    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
