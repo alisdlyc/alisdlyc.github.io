@@ -138,14 +138,14 @@ share:
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-# comment:
-#   type: gitment # 启用哪种评论系统
-#   gitment:
-#     githubID: alisdlyc
-#     repo: alisdlyc.github.io
-#     ClientID: 0c1dc2ddbac02cfdc530
-#     ClientSecret: 00863bccf80786761386f9f2caf729b1661352ea
-#     lazy: false
+comment:
+  type: gitment # 启用哪种评论系统
+  gitment:
+    githubID: alisdlyc
+    repo: alisdlyc.github.io
+    ClientID: 0c1dc2ddbac02cfdc530
+    ClientSecret: 00863bccf80786761386f9f2caf729b1661352ea
+    lazy: false
 
 # hexo-neat
 neat_enable: true
