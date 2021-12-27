@@ -138,7 +138,8 @@ share:
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-comment: false
+comment:
+    enable: false
   # type: gitment # 启用哪种评论系统
   # gitment:
   #   githubID: alisdlyc
@@ -178,7 +179,7 @@ site:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png # 在主题目录的source文件夹中进行图片的设定
@@ -193,21 +194,21 @@ profile:
   enabled: true # 是否展示个人信息
   avatar: images/avatar.jpg # 在主题目录的source文件夹中进行图片的设定
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
+  author: alisdlyc
   author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author_description: cat
+  location: Peking, China
+  follow: https://github.com/alisdlyc
   # Social Links
   social:
     links: # 左边目录底部的链接配置，可自行删减
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/alisdlyc
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
-      rss: atom.xml
+      # behance: https://www.behance.net/cofess
+      # rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
 
 # PV
