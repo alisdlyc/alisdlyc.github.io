@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>Meow Meow</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -187,11 +187,11 @@ fb_app_id:
 
 # profile
 profile:
-  enabled: true # Whether to show profile bar
+  enabled: false # Whether to show profile bar
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: alisdlyc
-  author_title: Web Developer & Designer
+  author_title: BigData developer.
   author_description: I want to be a cat, no work, not school, just meow meow.
   location: Peking, China
   follow: https://github.com/alisdlyc
