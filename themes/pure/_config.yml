@@ -102,7 +102,7 @@ share:
 
 # Github
 github:
-  username: cofess  # github username
+  username: alisdlyc  # github username
 
 # Comment
 # Gitment
@@ -149,8 +149,8 @@ comment:
   # https://api.douban.com/v2/movie/coming_soon 即将上映的电影
   # https://api.douban.com/v2/movie/subject/:id 单个电影信息
   # https://api.douban.com/v2/movie/search?q={text} 电影搜索
-# douban:
-#   enable: false
+douban:
+  enable: false
 #   user: # 豆瓣用户名
 #   start: 0 # 从哪一条记录开始
 #   count: 100 # 获取豆瓣书单数据条数
