@@ -163,3 +163,64 @@ neat_js:
   compress:
   exclude:
     - '*.min.js'
+
+# Site
+site:
+  logo:
+    enabled: true
+    width: 40
+    height: 40
+    url: ../images/logo.png
+  title: Hexo # 页面title
+  favicon: /favicon.png # 页面icon
+  board: <p>No work, no school, just meow meow!</p> # 站点公告
+  copyright: false # 底部版权信息,使用true开启
+
+# Donate
+donate:
+  enable: true
+  # 微信打赏
+  wechatpay:
+    qrcode: images/donate/wechatpayimg.png # 在主题目录的source文件夹中进行图片的设定
+    title: 微信支付
+  # 支付宝打赏
+  alipay:
+    qrcode: images/donate/alipayimg.png # 在主题目录的source文件夹中进行图片的设定
+    title: 支付宝
+
+# profile
+profile:
+  enabled: true # 是否展示个人信息
+  avatar: images/avatar.jpg # 在主题目录的source文件夹中进行图片的设定
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author: 昵称
+  author_title: Web Developer & Designer
+  author_description: 个人简介。
+  location: Shenzhen, China
+  follow: https://github.com/cofess
+  # Social Links
+  social:
+    links: # 左边目录底部的链接配置，可自行删减
+      github: https://github.com/cofess
+      weibo: http://weibo.com/cofess
+      twitter: https://twitter.com/iwebued
+      # facebook: /
+      # dribbble: /
+      behance: https://www.behance.net/cofess
+      rss: atom.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
+
+# PV
+pv: # 浏览量统计
+  busuanzi:
+    enable: false  # 不蒜子统计，一般使用不蒜子统计，使用true开启
+  leancloud:
+    enable: true  # leancloud统计
+    app_id: EG6umABSg3jt7bpIzyCTBGQz-gzGzoHsz
+    app_key: 1cva6oUDyuD24OrQrWJesSPI
+
+# wordcount
+postCount:
+  enable: false
+  wordcount: true  # 文章字数统计
+  min2read: true  # 阅读时长预计
