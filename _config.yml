@@ -138,8 +138,8 @@ share:
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
-comment:
-    enable: false
+# comment:
+#     enable: false
   # type: gitment # 启用哪种评论系统
   # gitment:
   #   githubID: alisdlyc
@@ -148,34 +148,34 @@ comment:
   #   ClientSecret: 00863bccf80786761386f9f2caf729b1661352ea
   #   lazy: false
 
-# hexo-neat
-neat_enable: true
-neat_html:
-  enable: true
-  exclude:
-neat_css:
-  enable: true
-  exclude:
-    - '*.min.css'
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
+# # hexo-neat
+# neat_enable: true
+# neat_html:
+#   enable: true
+#   exclude:
+# neat_css:
+#   enable: true
+#   exclude:
+#     - '*.min.css'
+# neat_js:
+#   enable: true
+#   mangle: true
+#   output:
+#   compress:
+#   exclude:
+#     - '*.min.js'
 
-# PV
-pv: # 浏览量统计
-  busuanzi:
-    enable: false  # 不蒜子统计，一般使用不蒜子统计，使用true开启
-  leancloud:
-    enable: true  # leancloud统计
-    app_id: EG6umABSg3jt7bpIzyCTBGQz-gzGzoHsz
-    app_key: 1cva6oUDyuD24OrQrWJesSPI
-
-# wordcount
-postCount:
-  enable: false
-  wordcount: true  # 文章字数统计
-  min2read: true  # 阅读时长预计
+# # PV
+# pv: # 浏览量统计
+#   busuanzi:
+#     enable: false  # 不蒜子统计，一般使用不蒜子统计，使用true开启
+#   leancloud:
+#     enable: true  # leancloud统计
+#     app_id: EG6umABSg3jt7bpIzyCTBGQz-gzGzoHsz
+#     app_key: 1cva6oUDyuD24OrQrWJesSPI
+#
+# # wordcount
+# postCount:
+#   enable: false
+#   wordcount: true  # 文章字数统计
+#   min2read: true  # 阅读时长预计
