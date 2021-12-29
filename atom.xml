@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Meow</title>
+  
+  
+  <link href="https://alisdlyc.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://alisdlyc.github.io/"/>
+  <updated>2021-12-29T09:15:45.840Z</updated>
+  <id>https://alisdlyc.github.io/</id>
+  
+  <author>
+    <name>alisdlyc</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://alisdlyc.github.io/2021/12/29/hello-world/"/>
+    <id>https://alisdlyc.github.io/2021/12/29/hello-world/</id>
+    <published>2021-12-29T09:15:45.840Z</published>
+    <updated>2021-12-29T09:15:45.840Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="quick-start"><a class="markdownIt-Anchor" href="#quick-start"></a> Quick Start</h2><h3 id="create-a-new-post"><a class="markdownIt-Anchor" href="#create-a-new-post"></a> Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="run-server"><a class="markdownIt-Anchor" href="#run-server"></a> Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="generate-static-files"><a class="markdownIt-Anchor" href="#generate-static-files"></a> Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="deploy-to-remote-sites"><a class="markdownIt-Anchor" href="#deploy-to-remote-sites"></a> Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Spark</title>
+    <link href="https://alisdlyc.github.io/2021/12/27/Spark/"/>
+    <id>https://alisdlyc.github.io/2021/12/27/Spark/</id>
+    <published>2021-12-27T04:25:33.000Z</published>
+    <updated>2021-12-29T09:15:45.840Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="spark"><a class="markdownIt-Anchor" href="#spark"></a> Spark</h1><p><strong>官网</strong>：<a href="https://spark.apache.org/">https://spark.apache.org/</a></p><p><strong>文档</strong>：<a href="https://spark.apache.org/docs/latest/">https://spark.apache.org/docs/latest/</a></p><p><strong>UDF</strong>：<a href="https://spark.apache.org/docs/3.2.0/sql-ref-functions-builtin.html#array-functions">https://spark.apache.org/docs/3.2.0/sql-ref-functions-builtin.html#array-functions</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;spark&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#spark&quot;&gt;&lt;/a&gt; Spark&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;官网&lt;/strong&gt;：&lt;a href=&quot;https://spark.apache.org/&quot;&gt;https:/</summary>
+      
+    
+    
+    
+    
+    <category term="Spark" scheme="https://alisdlyc.github.io/tags/Spark/"/>
+    
+  </entry>
+  
+</feed>
