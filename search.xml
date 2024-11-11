@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Spark ApplicationMaster 启动原理</title>
+      <link href="/2024/11/11/Spark-ApplicationMaster-%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86/"/>
+      <url>/2024/11/11/Spark-ApplicationMaster-%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>在Spark on Yarn模式下, 用户通过spark_submit脚本提交的Spark作业会调用SparkSubmit方法, 并且会在Yarn NodeManager上面启动ApplicaitonMaster进程.</p><p>ApplicationMaster将会启动Driver线程, 完成UserClass的启动, 并且向ResourceManager注册ApplicaitionID和ApplicationMaster, 并且将完成资源申请, 选择合适的Container, 并在Container上面启动<code>YarnCoarseGrainedExecutorBackend</code>进程.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"> ApplicationMaster</span><br><span class="line"> -- main</span><br><span class="line"> // --class =&gt; userClass =&gt; WordCount</span><br><span class="line">new ApplicationMasterArguments</span><br><span class="line">master = new ApplicationMaster</span><br><span class="line">master.run</span><br><span class="line"></span><br><span class="line">ApplicationMaster, Driver线程, Executor对应的YarnCoarseGrainedExecutorBackend进程全都启动完毕,</span><br><span class="line">用户提交的Spark作业正式进入执行状态。</span><br></pre></td></tr></table></figure><p><code>ApplicationMaster.scala</code><img src="https://alisdlyc.oss-cn-beijing.aliyuncs.com/hexo/202411112310340.png" alt="Pasted image 20241005210646" style="zoom: 50%;" /></p><p><strong>runDriver</strong>方法执行, 在执行期间会阻塞等待SparkContext对象的生成.<br>而且在阻塞之前只执行了<strong>startUserApplication</strong>方法, 所以推测SparkContext是在该方法中被初始化的.<br><img src="https://alisdlyc.oss-cn-beijing.aliyuncs.com/hexo/202411112311790.png" alt="Pasted image 20241005210838" style="zoom:50%;" /></p><p><code>startUserApplication.startUserApplication()</code>方法:<br><img src="https://alisdlyc.oss-cn-beijing.aliyuncs.com/hexo/202411112313896.png" alt="Pasted image 20241005211457" style="zoom:50%;" /></p><p>在SparkContext初始化的时候, 可以通过postStartHook方法将SparkContext的初始化结果传递给ApplicationMaster对象, 并且在new SparkContext过程中会阻塞UserClass线程, 将执行流程释放给ApplicaitonMaster的线程, ApplicaitonMaster将会继续执行runDriver方法.</p><p>其中resumeDriver()方法将会恢复WordCount作业的运行, 主线程将等待用户线程执行完毕.<br><img src="https://alisdlyc.oss-cn-beijing.aliyuncs.com/hexo/202411112314873.png" alt="Pasted image 20241005212513" style="zoom:50%;" /></p><p><strong>createAllocator</strong>会完成资源申请, 启动<code>YarnCoarseGrainedExecutorBackend</code>进程, 完成Executor的注册.</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Spark </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于hexo+cactus+valine+PicGo配置一个精美的博客</title>
       <link href="/2024/11/10/hello-world/"/>
       <url>/2024/11/10/hello-world/</url>
